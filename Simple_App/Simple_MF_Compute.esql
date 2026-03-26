@@ -7,7 +7,7 @@ CREATE COMPUTE MODULE Simple_MF_Compute
 		    CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
-
+--test
 	CREATE PROCEDURE CopyMessageHeaders() BEGIN
 		DECLARE I INTEGER 1;
 		DECLARE J INTEGER;
